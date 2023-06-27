@@ -1,4 +1,4 @@
-# Project Name
+# Performance Comparison: Map vs. Unordered Map in C++ Hashing
 
 ## Objective
 
@@ -38,13 +38,11 @@ To use redirected input in the Visual Studio environment (on Windows), follow th
 
 If you are using macOS, Linux, or Windows with PowerShell, you may compile and run the program using `g++`. Ensure that the program and the input file are in the same folder. Here are the commands:
 
-        ```shell
         # Compile the program
         g++ project6.cpp -o p6
         
         # Run the program with redirected input
         ./p6 < input1.txt
-        '''
 
 ## Report and Timing
 
@@ -52,7 +50,5 @@ The time taken to create both the map and unordered_map data structures were mea
 
 To measure the time, use the following code snippets as a reference:
 
-        '''c++
         // Start timer
         clock_t start1 = clock
-        '''
